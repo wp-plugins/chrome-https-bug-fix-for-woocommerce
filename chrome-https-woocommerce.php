@@ -19,7 +19,7 @@ function cfs_wdc_admin_notice() {
         printf(__('Your website should now be working like normal again, please consider making a small $5 AUD donation. Thanks! :) <br> <br> <a href="%1$s">Hide Notice</a>'), '?cfs_wdc_nag_ignore=0');
         echo "</p>";
 		
-		echo '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="float:right; margin: .5em 0; padding: 2px;>
+		echo '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="PLGDCHTK6XMQU">
 <table>
