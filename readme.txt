@@ -1,7 +1,7 @@
 === Chrome HTTPS Bug Fix for WooCommerce ===
 Contributors: Luke Williamson
 Tags: woocommerce, https bug, chrome woocommerce, chrome https, ssl bug, woocommerce ssl, woocommerce chrome ssl, ssl chrome bug woocommerce
-Donate link: http://lukewilliamson.com.au
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGQJJN4322QQW
 Requires at least: 1.0
 Tested up to: 4.2.3
 Stable tag: 1.1
