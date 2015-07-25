@@ -16,7 +16,7 @@ function cfs_wdc_admin_notice() {
         /* Check that the user hasn't already clicked to ignore the message */
 	if ( ! get_user_meta($user_id, 'cfs_wdc_ignore_notice') ) {
         echo '<div class="updated"><p style="float:left;">'; 
-        printf(__('Your website should now be working like normal again, please consider making a small $5 AUD donation. Thanks! :) <br> <br> <a href="%1$s">Hide Notice</a>'), '?cfs_wdc_nag_ignore=0');
+        printf(__('Your website should now be working again from using the Chrome HTTPS Bug Fix plugin, please consider making a small donation. Thanks! :) <br> <br> <a href="%1$s">Hide Notice</a>'), '?cfs_wdc_nag_ignore=0');
         echo "</p>";
 		
 		echo '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="float:right;">
